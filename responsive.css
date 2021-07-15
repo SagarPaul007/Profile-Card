@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+  body {
+    padding-top: 200px;
+    height: 100%;
+  }
+
+  .overlay {
+    height: 100%;
+  }
+
+  .profile {
+    text-align: center;
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .img img {
+    position: absolute;
+    top: -180px;
+    left: -120px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .card {
+    margin-bottom: 50px;
+    padding: 100px 40px 40px 40px;
+    width: 500px;
+    height: 550px;
+    border-radius: 8px;
+  }
+
+  hr {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .img img {
+    width: 180px;
+    height: 180px;
+    left: -90px;
+    top: -130px;
+  }
+  .card {
+    width: 400px;
+    height: auto;
+  }
+
+  .social a {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 300px;
+    height: auto;
+  }
+
+  .social a {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+}
